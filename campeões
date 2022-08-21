@@ -1,0 +1,38 @@
+ #include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+int main() 
+{
+char ClasseDeCampeoes;
+printf("Informe uma classe de campeoes: \n");
+scanf("%C", &ClasseDeCampeoes);
+switch (ClasseDeCampeoes) {
+	case 'A':
+	case 'a': printf("Classe Assassino\n");
+	          printf("Campeoes: Akali");	
+	          break;
+	case 'M':
+	case 'm': printf("Classe Mago\n");
+	          printf("Campeoes: Ahri, Anivia, Annie, Aurelion, Sol, Azir e Brand ");	
+	          break;
+	case 'L':
+	case 'l': printf("Classe Lutador\n");
+	          printf("Campeoes: Aatrox");	
+	          break;         
+	case 'R':
+	case 'r': printf("Classe Atirador\n");
+	          printf("Campeoes: Akshan, Aphelios, Ashe, caitlyn ");	
+	          break;
+	case 'S':
+	case 's': printf("Classe Suporte\n");
+	          printf("Campeoes: Bardo e Braum");	
+	          break;
+	case 'T': 
+	case 't': printf("Classe Tanque\n");
+	          printf("Campeoes: Alistar, Amumu, Blitzcrank");	
+	          break;
+	default:  printf("Classe não existe");
+}
+return 0;
+}
