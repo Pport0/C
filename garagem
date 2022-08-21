@@ -1,0 +1,51 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+int main()
+{
+char LetraDaGaragem;
+printf("Letra da garagem: ");
+scanf("%c", &LetraDaGaragem);
+switch (LetraDaGaragem) {
+    case 'A':
+    case 'a': printf("Inquilino que utiliza a garagem: Rose");
+              break;
+    case 'B':
+    case 'b': printf("Inquilino que utiliza a garagem: Karine");
+              break;
+    case 'C':
+    case 'c': printf("Inquilino que utiliza a garagem: Alice");
+              break;
+    case 'D':
+    case 'd': printf("Inquilino que utiliza a garagem: Paulo");
+              break;
+    case 'E':
+    case 'e': printf("Inquilino que utiliza a garagem: Vilma");
+              break;
+    case 'F':
+    case 'f': printf("Inquilino que utiliza a garagem: Alexandre");
+              break;         
+    case 'G':
+    case 'g': printf("Inquilino que utiliza a garagem: Caio");
+              break;
+    case 'H':
+    case 'h': printf("Inquilino que utiliza a garagem: Itamar");
+              break;
+    case 'I':
+    case 'i': printf("Inquilino que utiliza a garagem: Melissa");
+              break;
+    case 'J':
+    case 'j': printf("Inquilino que utiliza a garagem: Antonia");
+              break;
+    case 'L':
+    case 'l': printf("Inquilino que utiliza a garagem: Maria Lucia");
+              break;
+    default:  printf("Garagem não existe");
+    
+	return 0;	
+		
+	
+}
+	
+}
