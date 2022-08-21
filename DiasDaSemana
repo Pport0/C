@@ -1,0 +1,28 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+int NumeroDaSemana;
+printf("Numero da semana: \n");
+scanf("%d", &NumeroDaSemana);
+switch (NumeroDaSemana) {
+    case 1: printf("Dia da semana: Domingo");	
+	        break;
+	case 2 : printf("Dia da semana: Segunda");
+	        break;
+	case 3 : printf("Dia da semana: Terça");
+	        break;
+	case 4 : printf("Dia da semana: Quarta");	
+	        break;
+	case 5 : printf("Dia da semana: Quinta");	
+	        break;
+	case 6 : printf("Dia da semana: Sexta");
+	        break;
+	case 7 : printf("Dia da semana: Sabado");	
+	        break;
+	default : printf ("Dia da semana: Invalido");       
+}
+	return 0;
+}
